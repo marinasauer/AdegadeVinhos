@@ -28,8 +28,6 @@ public class Adega {
             }
         }
         System.out.println("CONTAGEM FINALIZADA");
-
-
         int total = rose + tinto + branco;
         double porcentagemRose = (double)rose*100/total;
         double porcentagemTinto = (double) tinto*100/total;
