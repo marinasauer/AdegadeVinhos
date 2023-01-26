@@ -21,7 +21,7 @@ public class Adega {
             } else if (tipo.equalsIgnoreCase("r")) {
                 rose++;
 
-            }else if (input.next().equalsIgnoreCase("f")) {
+            }else if (tipo.equalsIgnoreCase("f")) {
                     stop = true;
             }else {
                 System.out.println("Entrada inválida");
